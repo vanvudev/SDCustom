@@ -1,4 +1,30 @@
-
+#txt2img_prompt_container {
+    display: none;
+  }
+  .gradio-row.svelte-15lo0d8.unequal-height {
+    display: block;
+  }
+  #txt2img_settings > div:nth-child(1), #txt2img_settings > div:nth-child(2),#txt2img_settings > div:nth-child(3) {
+    display: none;
+  }
+  #quicksettings {
+    display: none;
+  }
+  button#img2img_tab,button#inpaint_tab,button#extras_tab {
+    display: none;
+  }
+  #txt2img_tools{
+    display: none;
+  }
+  .tab-nav {
+    display: none !important;
+  }
+  #txt2img_column_batch {
+    display: none;
+  }
+  #script_list{
+    display: none;
+  }
 /* general gradio fixes */
 
 :root, .dark{

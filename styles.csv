@@ -6,9 +6,8 @@ Cách sử dụng :
 - Có thể kết hợp các thẻ kèm với các từ khoá bổ sung.
 VD  cơ bản : Để tạo hình 1 cô gái ở quán cà phê - Sử dụng prompt - lady in the coffee shop + 2 thẻ cơ bản : NegativeBase , Quality + 2 các thẻ Obiect : Wear, Light để tạo ngẫu nhiên trang phục, ánh sáng",
 ___________,,
-NegativeBase,,"watermark,text, logo,contact, error, blurry, cropped, username, artist name, (worst quality, low quality:1.4),"
+
 NegativeFace,,"((bad anatomy)), ((extra limbs)),big face, big body, big eyes, short girl,hand, finger, dude,open mouth,(pussy:1.2)"
-NegativeTextual,, "EasyNegative Deepnegative BadHands BadImage BadArtist BadArtistAnime BadPrompt"
 Quality,"masterpiece,ultra realistic,32k,extremely detailed CG unity 8k wallpaper, best quality",
 __________,,
 Light,"{1-3$$ soft lighting | gorgeous light and shadow | stunning environment |vibrant colors}",

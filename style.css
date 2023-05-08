@@ -1311,9 +1311,9 @@ button#extras_tab {
 #sddp-dynamic-prompting{
   display: none;
 }
-#html_info_txt2img {
+/* #html_info_txt2img {
   display: none;
-}
+} */
 #controlnet {
   display: none;
 }

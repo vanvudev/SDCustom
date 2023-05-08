@@ -1,12 +1,11 @@
 {
     "txt2img/Prompt/visible": true,
     "txt2img/Prompt/value": "",
-    "txt2img/Negative prompt/visible": true,
-    "txt2img/Negative prompt/value": "",
+    "txt2img/Negative prompt/visible": false,
+    "txt2img/Negative prompt/value": "watermark,text, logo,contact, error, blurry, cropped, username, artist name, (worst quality, low quality:1.4),",
     "txt2img/Styles/visible": true,
     "txt2img/Styles/value": [
-        "NegativeBase",
-        "Quality"
+        "Random"
     ],
     "txt2img/Sampling method/visible": true,
     "txt2img/Sampling method/value": "UniPC",

@@ -68,10 +68,9 @@
     "training_enable_tensorboard": false,
     "training_tensorboard_save_images": false,
     "training_tensorboard_flush_every": 120,
-    "sd_model_checkpoint": "RealZ.safetensors [5e4e58efa8]",
     "sd_checkpoint_cache": 0,
     "sd_vae_checkpoint_cache": 0,
-    "sd_vae": "Automatic",
+    "sd_vae": "VAE84.vae.pt",
     "sd_vae_as_default": true,
     "inpainting_mask_weight": 1.0,
     "initial_noise_multiplier": 1.0,
@@ -130,7 +129,8 @@
         "Checkpoint Merger",
         "Extras",
         "Extensions",
-        "img2img"
+        "img2img",
+        "Wildcards Manager"
     ],
     "ui_reorder": "inpaint, sampler, checkboxes, hires_fix, dimensions, cfg, seed, batch, override_settings, scripts",
     "ui_extra_networks_tab_reorder": "",

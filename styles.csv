@@ -1,18 +1,21 @@
 ﻿name,prompt,negative_prompt
-SDColab v1.2.04 info,"Phiên bản update ngày : 17/04/2023 - stablediffusion.vn
-- Cách sử dụng :
-+ NegativePrompt - Chọn base hoặc chọn cả 2 để nhân vật đẹp hơn
-+ Nên chọn cả 3 thẻ mặc định NegativeBase, NegativeFace, Quality (Sử dụng hiệu quả với SDVN Model ) 
-+ Các chỉ số khác có thể chọn lẫn tuỳ yêu cầu.",
+Cách sử dụng,"© stablediffusion.vn - Style v1.5
+Cách sử dụng : 
+- Có 3 bộ thẻ chính ( Quality, Object, Random )
+- Ngoại trừ các thẻ Random, tất cả các thẻ đều có thể sử dụng chung với nhau.
+- Có thể kết hợp các thẻ kèm với các từ khoá bổ sung.
+VD  cơ bản : Để tạo hình 1 cô gái ở quán cà phê - Sử dụng prompt - lady in the coffee shop + 2 thẻ cơ bản : NegativeBase , Quality + 2 các thẻ Obiect : Wear, Light để tạo ngẫu nhiên trang phục, ánh sáng",
+___________,,
 NegativeBase,,"watermark,text, logo,contact, error, blurry, cropped, username, artist name, (worst quality, low quality:1.4),"
 NegativeFace,,"((bad anatomy)), ((extra limbs)),big face, big body, big eyes, short girl,hand, finger, dude,open mouth,(pussy:1.2)"
+NegativeTextual,, "EasyNegative Deepnegative BadHands BadImage BadArtist BadArtistAnime BadPrompt"
 Quality,"masterpiece,ultra realistic,32k,extremely detailed CG unity 8k wallpaper, best quality",
-Faceskin,"smooth soft skin,detailed face, concept art",
-Light,"soft lighting,gorgeous light and shadow, stunning environment,vibrant colors",
-Acssessory,"{ earrings | bracelets | necklace | jewelry }",
-Hair,"{ long hair | short hair}, { wavy hair | Straight hair }, { black hair | brown hair | blonde | red hair | green hair}",
-Hairmax,"hair decoration,exquisite hair,intricate hair ornament",
-Lip,"hick lips, beautiful lips",
-Facemix,"([🇺🇸:🇰🇷:0.5]),lady,symmetrical face",
-Facemix2,"(Japanese:1.0),(china:0.8),(1 girl),(18yo:1.3)",
-DressLady,"{long skirt | pencil skirt | pleated skirt | short denim}, { shirt | camisole | denim | jacket | thin shirt | button down shirt }",
+__________,,
+Light,"{1-3$$ soft lighting | gorgeous light and shadow | stunning environment |vibrant colors}",
+Acssessory,{1-4$$ earrings | bracelets | necklace | jewelry },
+Hair,"__*/Hair/*__",
+Wear,"__*/Wear/*__",
+Location,"__*/Location/*__",
+_________,,
+Random,"__*/Random__","watermark,text, logo,contact, error, blurry, cropped, username, artist name, (worst quality, low quality:1.4),, ((bad anatomy)), ((extra limbs)),big face, big body, big eyes, short girl,hand, finger, dude,open mouth,(pussy:1.2)",
+RandomFashion,"__*/RandomFashion__","watermark,text, logo,contact, error, blurry, cropped, username, artist name, (worst quality, low quality:1.4),, ((bad anatomy)), ((extra limbs)),big face, big body, big eyes, short girl,hand, finger, dude,open mouth,(pussy:1.2)",

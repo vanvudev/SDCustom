@@ -1317,3 +1317,12 @@ button#extras_tab {
 #controlnet {
   display: none;
 }
+#txt2img_dimensions_row {
+  display: none;
+}
+#txt2img_subseed_show {
+  display: none;
+}
+#refresh_sd_model_checkpoint {
+  display: none;
+}
